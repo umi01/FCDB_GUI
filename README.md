@@ -1,0 +1,11 @@
+# codeとdataの説明
+## code 
+* autolabel_annotation.pyとstyle_anntotaion.py
+    * アノテーションで使うGUIのコード．実験の都合上分けただけだからどっちを弄っても構わない．
+* test_label.py
+    * 服装画像に対して自動でtop5の注釈を付与する．
+    * FS14に対応させるためには，classesのリストをFS14のクラスに合わせる必要有り．
+    * FS14の学習済モデルは後ほど共有
+## data
+* FashionStyle14_v1
+    * FS14←これに半自動注釈付を適用する
